@@ -15,5 +15,6 @@ def pw(num=5):
         pwd += random.choice(all_choice)
     print(pwd)
 
-if __name__ =='__main__':
-    pw(int(sys.argv[1]))
+#pw(8)
+# if __name__ =='__main__':
+pw(int(sys.argv[1]))
